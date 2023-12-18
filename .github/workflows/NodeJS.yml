@@ -1,0 +1,27 @@
+name: Node.js CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install NodeJS
+      run: sudo apt install -y nodejs
+
+    - name: Install dependencies (cross-env)
+      run: npm install cross-env --legacy-peer-deps
+
+    - name: NodeJS Magic
+      run: |
+        npm fund
+        npm audit fix --force
+        npm run build
+
+    - name: Run tests
+      run: npm test
