@@ -4,3 +4,4 @@
 /dist-zip
 webpack-stats.json
 .direnv
+.zip
