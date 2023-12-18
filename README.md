@@ -1,6 +1,6 @@
 [![Node.js CI](https://github.com/eskopp/chessdl/actions/workflows/NodeJS.yml/badge.svg)](https://github.com/eskopp/chessdl/actions/workflows/NodeJS.yml) [![Test Makefile](https://github.com/eskopp/chessdl/actions/workflows/make_test.yml/badge.svg)](https://github.com/eskopp/chessdl/actions/workflows/make_test.yml)
 
-# Chessdl
+# ChessDL
 chessdl is a browser extension for browsers based on Chrome. It uses the latest Manifest v3 and can therefore be integrated into all Chrome and Opera versions. It allows you to convert chess variants into PGN files for your own use.
 
 ## Please Read
