@@ -53,7 +53,7 @@ tree
 - Open [chrome://extensions/](chrome://extensions/)
 - Activate the ``developer mode`` in the top right corner
 - Press the ``Load unpacked extension``  button in the new field that appears
-- Navigate to the root folder of the gits. (for example: ``/git/chess-dlp``). The path may change.
+- Navigate to the root folder of the gits. (for example: ``/git/chessdl``). The path may change.
 - Select the ``dist`` folder here.
 - You have now successfully installed the extension.
 
