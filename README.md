@@ -11,6 +11,7 @@ I hereby declare that I am not liable for any consequences arising from the use 
 ### Download
 You can download the finished builds directly here. 
 - [Release 1.0.0](https://github.com/eskopp/chessdl/releases/download/v1.0.0)
+- [Release 1.0.0](https://github.com/eskopp/chessdl/releases/download/v1.0.1)
 
 ### Make
 You can use ``make`` to build the project.
