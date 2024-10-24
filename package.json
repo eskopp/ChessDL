@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.25.9",
-    "@types/jest": "^29.5.1",
+    "@types/jest": "^29.5.14",
     "fs.promises": "^0.1.2"
   },
   "devDependencies": {
