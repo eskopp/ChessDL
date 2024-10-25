@@ -1936,10 +1936,10 @@ buffer-from@^1.0.0:
   resolved "https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.2.tgz"
   integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
-bun-types@^1.1.32:
-  version "1.1.32"
-  resolved "https://registry.yarnpkg.com/bun-types/-/bun-types-1.1.32.tgz#f652284250ea1ccdbbec9064494e3732d3f1aec9"
-  integrity sha512-Lxgux4InO/WRjSAEy3iyDscsnDXR8+3rgNDeZYjPAizFYjUraoNuMl9PuRd9XMgFZgdyQwaUX7/QHmOw5KGFQw==
+bun-types@^1.1.33:
+  version "1.1.33"
+  resolved "https://registry.yarnpkg.com/bun-types/-/bun-types-1.1.33.tgz#4b9be15619222f5354cf01d1e866ba9779e86590"
+  integrity sha512-SOMt3HeI34EyXoAsMxs5qY+e8cjQOn9v1BQl/ZUy1BsOYYuSPBSRVBYE5DjauqY1bOAWGFAjVu9G9pSmCe1bVw==
   dependencies:
     "@types/node" "~20.12.8"
     "@types/ws" "~8.5.10"
