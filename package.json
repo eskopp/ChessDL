@@ -19,7 +19,7 @@
     "webpack-sources": "^2.0.0"
   },
   "dependencies": {
-    "@babel/core": "^7.25.9",
+    "@babel/core": "^7.26.0",
     "@types/jest": "^29.5.14",
     "fs.promises": "^0.1.2"
   },
