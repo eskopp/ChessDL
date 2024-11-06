@@ -6,5 +6,5 @@ all:
 	sudo apt install -y nodejs && \
 	npm install cross-env --legacy-peer-deps && \
 	npm fund || true && \
-	npm audit fix --force && \
+	npm audit fix --force || true && \
 	npm run build
