@@ -19,7 +19,7 @@ jobs:
     - name: Run npm tasks
       run: |
         npm fund
-        npm audit fix --force
+        npm audit fix
         npm run build
 
     - name: Run tests
