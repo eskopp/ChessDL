@@ -3,9 +3,6 @@ name: Update Yarn Packages
 on:
   schedule:
     - cron: '0 0 */2 * *' # Runs every 2 days at midnight
-    push:
-    branches:
-      - main
   push:
     branches:
       - main
