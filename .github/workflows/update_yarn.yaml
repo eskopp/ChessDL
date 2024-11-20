@@ -2,10 +2,7 @@ name: Update Yarn Packages
 
 on:
   schedule:
-    - cron: '0 0 */2 * *' 
-  push:
-    branches:
-      - main
+    - cron: '0 0 */2 * *'
 
 jobs:
   update-packages:
@@ -21,7 +18,10 @@ jobs:
         node-version: '20.x'
 
     - name: Install dependencies
-      run: yarn install
+      run: |
+        npm install --global yarn
+        yarn --version
+        yarn install
 
     - name: Upgrade Yarn packages
       run: yarn upgrade
