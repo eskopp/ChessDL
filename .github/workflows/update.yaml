@@ -2,8 +2,7 @@ name: Update Yarn Packages
 
 on:
   schedule:
-    - cron: '0 0 */2 * *' # Läuft alle 2 Tage um Mitternacht
-  workflow_dispatch:
+    - cron: '0 0 */2 * *' 
 
 jobs:
   update-packages:
