@@ -25,9 +25,11 @@ jobs:
       run: yarn upgrade
 
     - name: Commit and push changes
-      uses: ad-m/github-push-action@v0.6.0
+      uses: ad-m/github-push-action@v0.6.1
       with:
         github_token: ${{ secrets.TOKEN }}
         branch: main
         force: false # Optional, um --force Pushes zu erlauben
         message: "chore: upgrade yarn packages"
+
+        
