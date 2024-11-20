@@ -30,6 +30,6 @@ jobs:
         github_token: ${{ secrets.TOKEN }}
         branch: main
         force: false # Optional, um --force Pushes zu erlauben
-        message: "chore: upgrade yarn packages"
+        message: "chore: upgrade yarn packages "
 
         
